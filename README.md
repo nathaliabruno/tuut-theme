@@ -23,3 +23,4 @@
 - Adicionar Burger Queen como boilerplate do tema;
 
 É isso! :poop:
+
