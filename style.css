@@ -1,0 +1,22 @@
+/*
+Theme Name: Tuut Theme
+Theme URI: http://tuut.com.br/
+Author: Tuut
+Author URI: http://www.tuut.com.br
+Description: Tema padrão para desenvolvimento em WordPress.
+Version: 0.5.1
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: tuut
+Tags:
+
+████████╗██╗   ██╗██╗   ██╗████████╗
+╚══██╔══╝██║   ██║██║   ██║╚══██╔══╝
+   ██║   ██║   ██║██║   ██║   ██║   
+   ██║   ██║   ██║██║   ██║   ██║   
+   ██║   ╚██████╔╝╚██████╔╝   ██║   
+   ╚═╝    ╚═════╝  ╚═════╝    ╚═╝   
+
+
+*/
+@import url('dist/css/main.css'); 

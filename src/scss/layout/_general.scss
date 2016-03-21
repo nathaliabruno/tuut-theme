@@ -1,0 +1,25 @@
+html {
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+body {
+	@extend .proxima;
+	@include font-size(20px);
+	background-color: $light_gray;
+}
+
+a,{ 
+	text-decoration: none;
+	&:hover {
+		color: $black;
+	}
+}
+
+.content {
+	max-width: $site_width;
+}
+
+* {
+	@extend .font-smoothing;
+}

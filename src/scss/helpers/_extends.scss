@@ -1,0 +1,53 @@
+
+
+h1, .h1 {
+	
+	
+}
+
+h2, .h2 {
+	
+	
+}
+
+h3, .h3 {
+	
+	
+}
+
+h4, .h4 {
+	
+	
+}
+
+.small-body {
+	
+	
+}
+
+.text-body {
+	
+	
+}
+
+
+// @extend visuallyhidden
+.visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+// font-smoothing
+.font-smoothing {
+	  		 font-smoothing: antialiased;
+	    -moz-font-smoothing: antialiased;
+	 -webkit-font-smoothing: antialiased;
+	 -webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

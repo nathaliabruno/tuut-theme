@@ -1,0 +1,9 @@
+body:not(.home) {
+	.wrapper {
+		padding-top: $main_nav_height;
+		max-width: 840px;
+	}
+	.wrapper-full {
+		padding-top: $main_nav_height;
+	}
+}

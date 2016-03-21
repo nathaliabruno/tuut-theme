@@ -1,0 +1,25 @@
+{
+  "name": "tuut-theme-gulp",
+  "version": "0.5.1",
+  "authors": [
+    "Cezar Augusto <cezar.augusto@tuut.com.br>",
+    "Nathalia Bruno <nathalia.bruno@tuut.com.br>"
+  ],
+  "description": "Bower packages para o tema padrão da Tuut com gulp",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "http://tuut.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "waypoints": "jquery-waypoints#^4.0.0",
+    "slick-carousel": "^1.5.9"
+  }
+}

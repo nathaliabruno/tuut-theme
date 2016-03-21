@@ -1,0 +1,21 @@
+{
+  "name": "tuut-theme",
+  "version": "1.0.0",
+  "description": "Boilerplate theme for wordpress with taskrunner gulpjs",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "TUUTDEV",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "imagemin-pngquant": "^4.2.2"
+  }
+}
