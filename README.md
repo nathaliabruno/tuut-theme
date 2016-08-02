@@ -2,25 +2,24 @@
 
 ![Under Development](https://img.shields.io/badge/under-development-lightgrey.svg)
 
-
-
 ## Inclui :page_facing_up:
 
-### Grid: FlexboxGrid 
-### Gulp tasks:
-- BrowserSync
-- SASS
-  - AutoPrefix
-  - CleanCSS (minify)
-- UglifyConcat (JS)
-- Imagemin
-
-
+- Grid Bootstrap
+- Gulp tasks:
+  - BrowserSync
+  - SASS
+    - AutoPrefix
+    - CleanCSS (minify)
+  - UglifyConcat (JS)
+  - Imagemin
 
 ## To-do
 
-- Criar generator npm/slush/yo
-- Adicionar Burger Queen como boilerplate do tema;
+- [ ] Criar generator;
+- [ ] Adicionar Burger Queen como boilerplate do tema;
+- [ ] Task unCSS;
+- [ ] Task criticalCSS;
+- [ ] WebPack;
 
 É isso! :poop:
 
