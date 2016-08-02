@@ -25,19 +25,19 @@
 <body <?php body_class(); ?>>
 
 <header id="navigation" role="banner">
-	<div class="brand">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-	</div>
+  <div class="brand">
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+  </div>
 
-	<nav role="navigation" class="fluid">
-		
-	<?php wp_nav_menu( array( 
-		'container' 	 => '', 
-		'theme_location' => 'principal', 
-		'menu_id' 		 => 'principal'
-	) ); ?>
+  <nav role="navigation" class="fluid">
 
-	</nav>
+  <?php wp_nav_menu( array(
+    'container'       => '',
+    'theme_location'  => 'principal',
+    'menu_id'         => 'principal'
+  ) ); ?>
+
+  </nav>
 </header>
 
 

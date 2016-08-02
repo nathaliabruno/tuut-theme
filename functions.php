@@ -19,16 +19,16 @@ if ( ! function_exists( 'tuut_setup' ) ) :
 
 function tuut_setup() {
 
-	load_theme_textdomain( 'tuut', get_template_directory() . '/source/languages' );
+  load_theme_textdomain( 'tuut', get_template_directory() . '/source/languages' );
 
-	add_theme_support( 'automatic-feed-links' );
-	add_theme_support( 'title-tag' );
-	add_theme_support( 'post-thumbnails' );
-	add_theme_support( 'html5', array('search-form','comment-form','comment-list','gallery','caption',) );
+  add_theme_support( 'automatic-feed-links' );
+  add_theme_support( 'title-tag' );
+  add_theme_support( 'post-thumbnails' );
+  add_theme_support( 'html5', array('search-form','comment-form','comment-list','gallery','caption',) );
 
-	register_nav_menus( array(
-		'principal' => esc_html__( 'Menu Principal', 'tuut' ),
-	) );
+  register_nav_menus( array(
+    'principal' => esc_html__( 'Menu Principal', 'tuut' ),
+  ) );
 }
 endif; // tuut_setup
 add_action( 'after_setup_theme', 'tuut_setup' );
@@ -40,7 +40,7 @@ add_action( 'after_setup_theme', 'tuut_setup' );
  ................................................. */
 
 function tuut_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'tuut_content_width', 640 );
+  $GLOBALS['content_width'] = apply_filters( 'tuut_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'tuut_content_width', 0 );
 
@@ -51,15 +51,15 @@ add_action( 'after_setup_theme', 'tuut_content_width', 0 );
  ................................................. */
 
 function tuut_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'tuut' ),
-		'id'            => 'main-sidebar',
-		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
+  register_sidebar( array(
+    'name'          => esc_html__( 'Sidebar', 'tuut' ),
+    'id'            => 'main-sidebar',
+    'description'   => '',
+    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</aside>',
+    'before_title'  => '<h2 class="widget-title">',
+    'after_title'   => '</h2>',
+  ) );
 }
 add_action( 'widgets_init', 'tuut_widgets_init' );
 
@@ -71,9 +71,9 @@ add_action( 'widgets_init', 'tuut_widgets_init' );
 
 function tuut_scripts() {
 
-	// Carrega o CSS e JS (minificado) com dependências declaradas pelo Bower através do Grunt
-	wp_enqueue_style( 'tuut-style', get_stylesheet_uri() );
-	wp_enqueue_script( 'tuut-default', get_template_directory_uri() . '/dist/js/tuut.min.js', array('jquery'), '1.11.2', true );
+  // Carrega o CSS e JS (minificado) com dependências declaradas pelo Bower através do Grunt
+  wp_enqueue_style( 'tuut-style', get_stylesheet_uri() );
+  wp_enqueue_script( 'tuut-default', get_template_directory_uri() . '/dist/js/tuut.min.js', array('jquery'), '1.11.2', true );
 }
 add_action( 'wp_enqueue_scripts', 'tuut_scripts' );
 
@@ -84,7 +84,7 @@ add_action( 'wp_enqueue_scripts', 'tuut_scripts' );
  ................................................. */
 
 function tuut_excerpt_more( $more ) {
-	return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . 'Leia Mais' . '</a>';
+  return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . 'Leia Mais' . '</a>';
 }
 add_filter( 'excerpt_more', 'tuut_excerpt_more' );
 
@@ -109,11 +109,9 @@ function debugWP($data, $php = '') {
 }
 
 
-
 /*
  * Carrega arquivos a serem incorporados.
  * Útil para deixar o código enxuto.
  ................................................. */
 
 require get_template_directory() . '/includes/acf-call.php';
-require get_template_directory() . '/includes/users.php';

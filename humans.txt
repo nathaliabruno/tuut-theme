@@ -1,38 +1,36 @@
 
-                                     
-  `:+++++++++++++- `/+++/.   -++++-  -++++-   ./+++/` -+++++++++++++:`                                                                  
-  :MMMMMMMMMMMMMMN +MMMMMs  .mMMMMm..mMMMMm.  sMMMMM+ NMMMMMMMMMMMMMM:                                                                  
-  :NMMMMMMMMMMMMMN oMMMMMs  -mMMMMm--mMMMMm-  sMMMMMo NMMMMMMMMMMMMMN:                                                                  
-   .:::dMMMMMo:::. oMMMMMs  -mMMMMm--mMMMMm-  sMMMMMo .:::oMMMMMd:::.                                                                   
-       yMMMMM/     oMMMMMs  -mMMMMm--mMMMMm-  sMMMMMo     /MMMMMy                                                                       
-       yMMMMM/     oMMMMMs  -mMMMMm--mMMMMm-  sMMMMMo     /MMMMMy                                                                       
-       yMMMMM/     oMMMMMh``:NMMMMm--mMMMMN:``hMMMMMo     /MMMMMy                                                                       
-       yMMMMM/     /MMMMMMmmNMMMMMd..dMMMMMNmmMMMMMM/     /MMMMMy                                                                       
-       yMMMMM/      +dMMMMMMMMMMNy.  .yNMMMMMMMMMMd+      /MMMMMy                                                                       
-       :hdddy.       `/yddddddhs-      -shddddddy/`       .ydddd/          
+
+  `:+++++++++++++- `/+++/.   -++++-  -++++-   ./+++/` -+++++++++++++:`
+  :MMMMMMMMMMMMMMN +MMMMMs  .mMMMMm..mMMMMm.  sMMMMM+ NMMMMMMMMMMMMMM:
+  :NMMMMMMMMMMMMMN oMMMMMs  -mMMMMm--mMMMMm-  sMMMMMo NMMMMMMMMMMMMMN:
+   .:::dMMMMMo:::. oMMMMMs  -mMMMMm--mMMMMm-  sMMMMMo .:::oMMMMMd:::.
+       yMMMMM/     oMMMMMs  -mMMMMm--mMMMMm-  sMMMMMo     /MMMMMy
+       yMMMMM/     oMMMMMs  -mMMMMm--mMMMMm-  sMMMMMo     /MMMMMy
+       yMMMMM/     oMMMMMh``:NMMMMm--mMMMMN:``hMMMMMo     /MMMMMy
+       yMMMMM/     /MMMMMMmmNMMMMMd..dMMMMMNmmMMMMMM/     /MMMMMy
+       yMMMMM/      +dMMMMMMMMMMNy.  .yNMMMMMMMMMMd+      /MMMMMy
+       :hdddy.       `/yddddddhs-      -shddddddy/`       .ydddd/
 
 
 .............................................................................
 
 /* PROJECT */
-	.NOME DO PROJETO
+  .NOME DO PROJETO
 
 /* TEAM */
 
-	.Project Management: 
+  .Project Management:
+    Fulana de Tal
 
-	 
+   .Content by:
+    Fulana de Tal,
+    Fulano de Tal
 
-	 .Content by:
-	 
-	 
+  .Design by:
+    Fulano de Tal
 
-	.Design by: 
-
-	 
-
-	.Development by: 
-
-	 
+  .Development by:
+    Master koder
+    Gafanhoto mirim
 
 .............................................................................

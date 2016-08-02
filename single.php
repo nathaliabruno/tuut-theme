@@ -9,26 +9,18 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+  <div id="principal" class="container">
+    <main id="main" class="row" role="main">
 
-		<?php while ( have_posts() ) : the_post(); ?>
+    <?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
+      <?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-			<?php the_post_navigation(); ?>
+      <?php the_post_navigation(); ?>
 
-			<?php
-				// Se existem comentários e eles estão habilitados, carrega o template de Comentários.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
+    <?php endwhile; ?>
 
-		<?php endwhile; ?>
+    </main>
+  </div>
 
-		</main>
-	</div>
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

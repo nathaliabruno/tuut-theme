@@ -9,29 +9,22 @@
 
 get_header(); ?>
 
-<div id="about" class="content">
-	<div class="grid-hug">
-		<div class="col-5">
-		<img src="http://placehold.it/380x350/" alt="arvereses">
-		</div>
-		<div class="col-7">
-		<?php tuut_print_text( 'descricao_empresa' ); ?>
-		<p><?php pll_e('Saiba mais sobre:'); ?> <a href="#"><?php pll_e('A Capital'); ?></a> / <a href="#"><?php pll_e('Gestão de Patrimônio'); ?></a></p>
-		</div>
-	</div>
-</div>
+<header class="main-banner">
+  <h1>Banner avassalador</h1>
+</header>
 
-<div class="news">
-	<div class="content">
-		<h2><?php pll_e('Notícias'); ?></h2>
+<main class="main-wrapper">
+  <section class="container">
+    <h2>Koisas do site aqui</h2>
+  </section>
 
-		<?php get_template_part( 'template-parts/content', 'latest' ); ?>
+  <section class="container">
+    <h2>Atenção ao outline do documento!!!</h2>
+  </section>
 
-	</div>
-</div>
-
-<div id="newsletter">
-	<h2><?php pll_e('receba nossa'); ?> <strong><?php pll_e('newsletter'); ?></strong></h2>
-</div>
+  <section class="container">
+    <h2>Estilos são classes, se precisar separar seções, id.</h2>
+  </section>
+</main>
 
 <?php get_footer(); ?>
